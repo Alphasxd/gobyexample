@@ -26,6 +26,7 @@ func main() {
 	fmt.Printf("%T: %v\n", u, u)
 
 	// Atoi函数等价于ParseInt(s, 10, 0)，用于转换字符串为int类型，此处的0表示自动推断字符串所表示的数字的进制
+	// Atoi 函数的参数必须为“整数型”的字符串，否则会返回错误
 	k, _ := strconv.Atoi("135")
 	fmt.Printf("%T: %v\n", k, k)
 
