@@ -9,6 +9,7 @@ func main() {
 	zeroval(i)
 	fmt.Println("zeroval:", i) // 1
 
+	// &操作符会生成一个指向其操作数的指针
 	zeroptr(&i)
 	fmt.Println("zeroptr:", i) // 0
 
